@@ -24,4 +24,3 @@ void _rotr(stack_t **head, __attribute__((unused)) unsigned int counter)
 	(*head)->prev = copy;
 	(*head) = copy;
 }
-
